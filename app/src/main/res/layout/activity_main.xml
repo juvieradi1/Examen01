@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+
+                <RelativeLayout
+                    android:id="@+id/Inicio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Platos1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ListView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/Lista"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/Platos2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt1"
+                        android:background="@drawable/arroz_pato"
+                        android:layout_marginTop="82dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt2"
+                        android:layout_alignTop="@+id/bt1"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/causa_rellena" />
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt3"
+                        android:layout_below="@+id/bt1"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/ceviche" />
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt4"
+                        android:layout_below="@+id/bt2"
+                        android:layout_alignStart="@+id/bt2"
+                        android:background="@drawable/chicarrones" />
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt5"
+                        android:layout_below="@+id/bt3"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/cuy_papa" />
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/bt6"
+                        android:layout_below="@+id/bt4"
+                        android:layout_alignStart="@+id/bt4"
+                        android:background="@drawable/lomo_saltado" />
+                </RelativeLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

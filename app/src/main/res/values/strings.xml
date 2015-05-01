@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">JUAN VICTOR EDUARDO RAMOS DIAZ</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="clientes">clientes</string>
+    <string name="productos">productos</string>
+    <string name="categoria">categoria</string>
+    <string name="vendedor">vendedor</string>
+
+    <string name="platos1">Platos1</string>
+    <string name="platos2">Platos2</string>
+
+    <string name="reportes">reportes</string>
+
+    <string-array name="nombre_pedido">
+         <item>Seleccionar</item>
+        <item>Papa a la huancaina</item>
+        <item>Pescado Frito</item>
+        <item>Pollo al Horno</item>
+        <item>Estofado de Gluten</item>
+        <item>Arroz con pollo</item>
+    </string-array>
+    <string name="title_activity_chaufa">Causa rellena</string>
+    <string name="title_activity_juane">Chicharron</string>
+    <string name="title_activity_saltado">Ceviche</string>
+    <string name="title_activity_cebiche">Cuy con papas</string>
+    <string name="title_activity_tacacho">Arroz con pato</string>
+    <string name="title_activity_tallarines">Lomo saltado</string>
+
+
+
+
+    <string name="title_activity_opcion1">Clientes</string>
+    <string name="title_activity_opcion2">Productos</string>
+    <string name="title_activity_opcion3">Categoria</string>
+    <string name="title_activity_opcion4">Vendedor</string>
+    <string name="title_activity_opcion5">INICIO</string>
+    <string name="opc1">Bienvenido a Cliente</string>
+    <string name="opc2">Bienvenido a Producto</string>
+    <string name="opc3">Bienvenido a Categoria</string>
+    <string name="opc4">Bienvenido a Vendedor</string>
+    <string name="opc5">INICIO</string>
+    <string name="opcion1">CLIENTE</string>
+    <string name="opcion2">PRODUCTO</string>
+    <string name="opcion3">CATEGORIA</string>
+    <string name="opcion4">VENDEDOR</string>
+    <string name="opcion5">INICIO</string>
+    <string name="inicio">Inicio</string>
+    <string name="title_activity_inicio">inicio</string>
+
+
+    <string name="opc1_1">Reporte_producto</string>
+    <string name="opc2_2">Reporte_Ventas</string>
+    <string name="opcion1_1">Reporte_producto</string>
+    <string name="opcion2_2">Reporte_Ventas</string>
+    <string name="title_activity_opcion1_1">Reporte Productos</string>
+    <string name="title_activity_opcion2_2">Reporte de Ventas</string>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gerson.usuario.examen_01_PARCIAL" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida2"
+            android:label="@string/title_activity_chaufa" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida3"
+            android:label="@string/title_activity_juane" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida4"
+            android:label="@string/title_activity_saltado" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida1"
+            android:label="@string/title_activity_cebiche" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida5"
+            android:label="@string/title_activity_tacacho" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Comida6"
+            android:label="@string/title_activity_tallarines" >
+        </activity>
+
+
+
+
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion1Activity"
+            android:label="@string/title_activity_opcion1" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion2Activity"
+            android:label="@string/title_activity_opcion2" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion3Activity"
+            android:label="@string/title_activity_opcion3" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion4Activity"
+            android:label="@string/title_activity_opcion4" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.inicio"
+            android:label="@string/title_activity_opcion5" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion1_1Activity"
+            android:label="@string/title_activity_opcion1_1" >
+        </activity>
+        <activity
+            android:name="com.gerson.usuario.examen_01_PARCIAL.Opcion2_2Activity"
+            android:label="@string/title_activity_opcion2_2" >
+        </activity>
+    </application>
+
+</manifest>
